@@ -132,7 +132,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     try:
-        return pd.read_csv(r'C:\Users\HP\OneDrive\Desktop\Mobile Price Prediction\used_phone.csv')
+        return pd.read_csv('used_phone.csv')
     except:
         return None
 
